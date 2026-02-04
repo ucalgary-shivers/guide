@@ -2,7 +2,7 @@
 
 SHIVERS should maintain a daily log of activities. SHIVERS use a mixture of shared Slack Canvases (WYSIWYG Markdown editor) and individual solutions. 
 
-## Obsidian for individual note takiong
+## Obsidian for individual note taking
 
 [Obsidian - Sharpen your thinking](https://obsidian.md/) is a free (but not open-source) Markdown editor that works across desktops/laptops and mobile phones. Christian has used open-source alternative [Logseq](https://logseq.com) for 1 year in 2023 on Windows and macOS, then switched to Obsidian since 2025 after this tool became free to use including for commercial use.
 
