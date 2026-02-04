@@ -27,3 +27,7 @@ Not yet solved.
 You might have to use literal IP addresses in git remotes instead of `.local` hostnames, but that looks fixable:
 - [Unable to SSH into Raspberry Pi using Hostname.local in iSH App · Issue #2238 · ish-app/ish](https://github.com/ish-app/ish/issues/2238)
 - [mDNS - Alpine Linux](https://wiki.alpinelinux.org/wiki/MDNS)
+
+### Synchronizing Obsidian vaults on Apple devices via iCloud (free)
+
+Obsidian also support synchronizing content via iCloud out of the box. Documentation can be found [here](https://help.obsidian.md/sync-notes#iCloud).
