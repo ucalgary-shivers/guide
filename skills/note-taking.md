@@ -12,6 +12,13 @@ Requires an iPhone.
 
 Install [iSH](https://ish.app) ([GitHub repository](https://github.com/ish-app/ish)) under iOS so that you can sync via ssh your Obsidian notes Vault, that is versioned in a git repository that is local to your phone and that is local to your desktop/laptop.
 
+- [How to mount a filesystem in iSH](https://github.com/ish-app/ish/wiki/Mounting-other-file-providers)
+
+- Install git:
+```sh
+apk add git
+```
+
 #### Git optimization on iPhones
 
 Once you open iSH, set:
@@ -28,6 +35,17 @@ You might have to use literal IP addresses in git remotes instead of `.local` ho
 - [Unable to SSH into Raspberry Pi using Hostname.local in iSH App · Issue #2238 · ish-app/ish](https://github.com/ish-app/ish/issues/2238)
 - [mDNS - Alpine Linux](https://wiki.alpinelinux.org/wiki/MDNS)
 
+#### (Optional) Setup ssh keys for git
+
+You might need to have ssh key to pull from and push to GitHub.
+
+- Install `ssh` client:
+```sh
+apk update
+apk add openssh-client
+```
+- [GitHub documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for generating ssh key and adding private key to GitHub settings.
+
 ### Synchronizing Obsidian vaults on Apple devices via iCloud (free)
 
-Obsidian also support synchronizing content via iCloud out of the box. Documentation can be found [here](https://help.obsidian.md/sync-notes#iCloud).
+Obsidian also [supports synchronizing content via iCloud](https://help.obsidian.md/sync-notes#iCloud) out-of-the-box.
