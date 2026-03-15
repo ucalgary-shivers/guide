@@ -1,4 +1,4 @@
-# SHIVERS Handbook
+# SHIVERS Guide
 
 ## Contents
 
@@ -6,6 +6,6 @@
 
 - [Note taking](skills/note-taking.md)
 
-## Copyright
+## Copyleft
 
-Please read [COPYRIGHT](COPYRIGHT).
+Please read [LICENSE](LICENSE).
