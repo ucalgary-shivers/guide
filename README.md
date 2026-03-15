@@ -1,4 +1,4 @@
-# SHIVERS Handbook
+# SHIVERS Guide
 
 ## Copyright
 
