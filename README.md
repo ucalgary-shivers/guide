@@ -1,5 +1,5 @@
 # SHIVERS Guide
 
-## Copyright
+## Copyleft
 
-Please read [COPYRIGHT](COPYRIGHT).
+Please read [LICENSE](LICENSE).
