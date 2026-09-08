@@ -6,10 +6,10 @@
 
 Highly recommended:
 
-- https://github.com/obsidian-tasks-group/obsidian-tasks
-- https://github.com/vslinko/obsidian-outliner
-- https://github.com/open-horizon-labs/obsidian-ics
-- https://github.com/vinzent03/obsidian-git
+- [obsidian-tasks-group/obsidian-tasks: Task management for the Obsidian knowledge base.](https://github.com/obsidian-tasks-group/obsidian-tasks)
+- [vslinko/obsidian-outliner: Work with your lists like in Workflowy or RoamResearch](https://github.com/vslinko/obsidian-outliner)
+- [open-horizon-labs/obsidian-ics: Generate Daily Planner from ical feeds](https://github.com/open-horizon-labs/obsidian-ics)
+- [Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md](https://github.com/vinzent03/obsidian-git)
 
 ## Obsidian on multiple devices
 
