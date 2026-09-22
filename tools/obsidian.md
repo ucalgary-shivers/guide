@@ -1,0 +1,58 @@
+# Obsidian for individual note taking
+
+[Obsidian - Sharpen your thinking](https://obsidian.md/) is a free (but not open-source) Markdown editor that works across desktops/laptops and mobile phones. Christian has used open-source alternative [Logseq](https://logseq.com) for 1 year in 2023 on Windows and macOS, then switched to Obsidian since 2025 after this tool became free to use including for commercial use.
+
+## Obsidian plugins
+
+Highly recommended:
+
+- [obsidian-tasks-group/obsidian-tasks: Task management for the Obsidian knowledge base.](https://github.com/obsidian-tasks-group/obsidian-tasks)
+- [vslinko/obsidian-outliner: Work with your lists like in Workflowy or RoamResearch](https://github.com/vslinko/obsidian-outliner)
+- [open-horizon-labs/obsidian-ics: Generate Daily Planner from ical feeds](https://github.com/open-horizon-labs/obsidian-ics)
+- [Vinzent03/obsidian-git: Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md](https://github.com/vinzent03/obsidian-git)
+
+## Obsidian on multiple devices
+
+### Setup iSH on iPhones for synchronizing Obsidian vaults via git
+
+Requires an iPhone.
+
+Install [iSH](https://ish.app) ([GitHub repository](https://github.com/ish-app/ish)) under iOS so that you can sync via ssh your Obsidian notes Vault, that is versioned in a git repository that is local to your phone and that is local to your desktop/laptop.
+
+- [How to mount a filesystem in iSH](https://github.com/ish-app/ish/wiki/Mounting-other-file-providers)
+
+- Install git:
+```sh
+apk add git
+```
+
+#### Git optimization on iPhones
+
+Once you open iSH, set:
+```
+git config --global pack.threads "1"
+```
+otherwise git commands inside iSH can take forever, found out via [Git Commands Stuck Forever · Issue #1640 · ish-app/ish](https://github.com/ish-app/ish/issues/1640).
+
+#### (Optional) Setup literal IP addresses in git remotes
+
+Not yet solved.
+
+You might have to use literal IP addresses in git remotes instead of `.local` hostnames, but that looks fixable:
+- [Unable to SSH into Raspberry Pi using Hostname.local in iSH App · Issue #2238 · ish-app/ish](https://github.com/ish-app/ish/issues/2238)
+- [mDNS - Alpine Linux](https://wiki.alpinelinux.org/wiki/MDNS)
+
+#### (Optional) Setup ssh keys for git
+
+You might need to have ssh key to pull from and push to GitHub.
+
+- Install `ssh` client:
+```sh
+apk update
+apk add openssh-client
+```
+- [GitHub documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for generating ssh key and adding private key to GitHub settings.
+
+### Synchronizing Obsidian vaults on Apple devices via iCloud (free)
+
+Obsidian also [supports synchronizing content via iCloud](https://help.obsidian.md/sync-notes#iCloud) out-of-the-box.
